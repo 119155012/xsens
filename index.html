@@ -1,15 +1,42 @@
 <!DOCTYPE html>
-<html lang="en-us">
-	<head>
-	<meta charset="UTF-8">
-	<title>頁面轉跳中...</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta http-equiv="refresh" content="0; url=http://cle.ntust.edu.tw/files/87-1086-997.php?Lang=zh-tw" />
-	<link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-	<link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-	</head>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+  background-color: black;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+  iframe, video{
+    height: 95vh;
+  }
+</style>
+</head>
 <body>
+
+<div class="row">
+  <div class="column">
+    <iframe width="100%" src="https://www.youtube-nocookie.com/embed/-0hSQFbt67U?start=22" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  <div class="column">
+<video width="100%" controls>
+  <source src="https://embedwistia-a.akamaihd.net/deliveries/41230a3966bdbde211fda27dcfecb5fcf806a274/file.mp4" type="video/mp4">
+</video>
+  </div>
+</div>
+
 </body>
 </html>
